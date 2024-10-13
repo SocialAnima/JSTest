@@ -7,12 +7,19 @@
 </head>
 <body>
   <div id="root">
-    <button onclick="alert('逗你玩')">点击按钮</button>
+    <p id="p1">这是一个段落</p>
+    <button id="btn1" onclick="myfunc()">点击按钮</button>
   </div>
   <script>
-    document.write('那就这样吧')
-    console.log('哈哈哈');
-    prompt('你猜我猜啥')
+    function myfunc(){
+      var num=new Number(101);
+      a=1;
+      b="2"
+      c={"c":3,"he":6};
+      document.getElementById("btn1").innerText=b.value;
+      // document.write(Date())
+    }
+    
   </script>
 </body>
 </html>
